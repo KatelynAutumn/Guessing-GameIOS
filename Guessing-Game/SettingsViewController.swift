@@ -35,6 +35,21 @@ class SettingsViewController: UIViewController {
     
     
     
+    @IBAction func changeBlue(_ sender: Any) {
+        UIView.appearance().backgroundColor = UIColor(hue: 0.4944, saturation: 0.31, brightness: 0.95, alpha: 1.0)
+        UILabel.appearance().textColor = UIColor.black
+        
+    }
+    
+    @IBAction func changeRed(_ sender: Any) {
+        UIView.appearance().backgroundColor = UIColor(hue: 0.8278, saturation: 0.22, brightness: 1, alpha: 1.0)
+        UILabel.appearance().textColor = UIColor.black
+    }
+    
+    @IBAction func changeGray(_ sender: Any) {
+        UIView.appearance().backgroundColor = UIColor.gray
+        UILabel.appearance().textColor = UIColor.black
+    }
     
     /*
      // MARK: - Navigation
